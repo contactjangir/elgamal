@@ -1,0 +1,20 @@
+rjangir@rjangir-linux:/local/mnt/workspace/rjangir/WORKSPACE/elgamal$ ./elgamal
+
+Enter a numeric message to encrypt (Plain text) : 101
+
+----------------------------------------------------------------------------------------
+
+Elgamal Encryption:
+
+        Plaintext '101'
+        Public key ( e1, e2, p ) : ( 2, 913754177, 1350490027 )
+        Private key ( d )        : ( 783368691 )
+        Ciphertext ( C1, C2 )    : ( 184141051, 1188726853 )
+
+----------------------------------------------------------------------------------------
+
+Elgamal Decryption:
+
+        Ciphertext ( C1, C2 ) : ( 184141051, 1188726853 )
+        The decrypted message (plaintext) is : 101
+
